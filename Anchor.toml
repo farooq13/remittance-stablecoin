@@ -1,0 +1,19 @@
+skip_local_validator = true
+
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+remittance_stablecoin = "E8js5UVXNrdYmGeCCBKE2vdL1qK4XbjkaZ88TJDi19Wz"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "scripts/build-litesvm-test-programs.sh && cargo test"
+
+[hooks]
