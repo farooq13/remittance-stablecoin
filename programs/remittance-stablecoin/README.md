@@ -71,7 +71,7 @@ Rust test suite:
 
 ```sh
 ./scripts/build-litesvm-test-programs.sh
-cargo test 
+cargo test -p remittance-stablecoin 
 ```
 
 The lifecycle tests cover mint extensions, KYC thawing, public transfer fees
