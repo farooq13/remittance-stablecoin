@@ -8,6 +8,7 @@ skip-lint = false
 
 [programs.localnet]
 remittance_stablecoin = "E8js5UVXNrdYmGeCCBKE2vdL1qK4XbjkaZ88TJDi19Wz"
+remittance_agent = "2RxSzAKT8HVc3ynLrYPJh4PJVoYC9PsStGkMrBiutgAD"
 
 [provider]
 cluster = "localnet"
